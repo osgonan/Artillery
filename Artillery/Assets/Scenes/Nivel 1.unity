@@ -2434,75 +2434,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163940868}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1169784092
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5845220002822514793, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_Name
-      value: SonidoDisparo
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -40.874054
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -11.977287
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.9216089
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5845220002822514799, guid: 83d24255c93a27945898eccbc8e25e87,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 83d24255c93a27945898eccbc8e25e87, type: 3}
 --- !u!1 &1192964941
 GameObject:
   m_ObjectHideFlags: 0
@@ -4645,6 +4576,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanonJugador
       objectReference: {fileID: 0}
+    - target: {fileID: 4978012023624983370, guid: 0c244a056a9130046893dd4d5f4e8286,
+        type: 3}
+      propertyPath: balaPrefab
+      value: 
+      objectReference: {fileID: 5964968480851315845, guid: b8a3cbe588c29fa49af55ac95d5d6895,
+        type: 3}
     - target: {fileID: 4978012023624983370, guid: 0c244a056a9130046893dd4d5f4e8286,
         type: 3}
       propertyPath: clipDisparo
