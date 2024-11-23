@@ -7,8 +7,11 @@ public class AdministradorJuego : MonoBehaviour
 
     private static AdministradorJuego _SINGLETONADMINISTRADORJUEGO;
     private static int _VELOCIDADBALA = 30;
-    private static int _DISPAROPORJUEGO = 10;
+    private static int _DISPAROPORJUEGO = 5;
     private static float _VELOCIDADROTACION = 1;
+
+    public GameObject canvasGano;
+    public GameObject canvasPerdio;
 
     public static AdministradorJuego SINGLETONADMINISTRADORJUEGO {
         get => _SINGLETONADMINISTRADORJUEGO;
@@ -37,5 +40,22 @@ public class AdministradorJuego : MonoBehaviour
             Debug.LogError("Ya existe una instancia de la clase");
 
         }
+    }
+
+
+    public void Update()
+    {
+        if(DISPAROPORJUEGO<=0)
+        {
+            perderJuego();
+        }
+    }
+
+    public void ganarJuego() {
+        canvasGano.SetActive(true);
+    }
+
+    public void perderJuego() {
+        canvasPerdio.SetActive(true);
     }
 }
